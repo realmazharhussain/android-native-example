@@ -24,11 +24,11 @@ class MainActivity : AppCompatActivity() {
         val resultTv = findViewById<TextView>(R.id.result_tv)
         val button = findViewById<Button>(R.id.button)
 
-        resultTv.text = "Count: $count"
+        resultTv.text = Concat.concat(arrayListOf("Count: ", count.toString()))
 
         button.setOnClickListener {
             count++
-            resultTv.text = "Count: $count"
+            resultTv.text = Concat.concat(arrayListOf("Count: ", count.toString()))
         }
     }
 }
