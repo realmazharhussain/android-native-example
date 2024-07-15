@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Native Application</string>
+    <string name="increment">Increment</string>
+</resources>
