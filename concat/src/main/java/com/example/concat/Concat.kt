@@ -1,6 +1,6 @@
-package com.example.nativeapplication
+package com.example.concat
 
-object Concat {
+class Concat {
     init { System.loadLibrary("concat-jni") }
     external fun concat(args: Collection<String>): String
 }

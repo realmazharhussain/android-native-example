@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "Native Application"
 include(":app")
- 
+include(":concat")
